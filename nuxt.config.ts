@@ -4,4 +4,7 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
   },
+  generate: {
+    fallback: true,
+  },
 });
